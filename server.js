@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
 
 
 
-const {MongoClient} = require("mongod");
+const {MongoClient} = require("mongodb");
 const ObjectID = require('mongodb').ObjectID;
  let db;
 let mongoUrl = "mongodb+srv://DAyesoro:daniel123@cluster0.gc9cp.mongodb.net/CST3145?retryWrites=true&w=majority"
