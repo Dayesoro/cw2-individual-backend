@@ -53,7 +53,7 @@ app.param('collectionName', (req, res, next, collectionName) => {
 });
 
 app.get('/', (req, res, next) => {
-    res.send('Select a collectio, e.g., /collection/messages');
+    res.send('Select a collection, e.g., /collection/messages');
 });
 
 
